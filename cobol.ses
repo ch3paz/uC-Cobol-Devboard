@@ -1,0 +1,3194 @@
+
+(session cobol.ses
+  (base_design cobol.dsn)
+  (placement
+    (resolution mil 10)
+    (component VASCH5x2
+      (place P4 60500 -32000 front 0)
+      (place P6 60500 -46000 front 0)
+      (place P9 72500 -32000 front 0)
+      (place P11 72500 -46000 front 0)
+    )
+    (component USB_B
+      (place J1 26250 -54500 front 270)
+    )
+    (component TO220_VERT
+      (place IC3 42250 -20750 front 90)
+      (place IC1 37750 -20750 front 90)
+    )
+    (component "TerminalBlock_WAGO-236_2Stift_RM5mm_12pol"
+      (place P1 27750 -33500 front 90)
+    )
+    (component "TerminalBlock_WAGO-236_2Stift_RM5mm_10pol"
+      (place P3 57000 -22500 front 0)
+      (place P5 56500 -55750 front 180)
+      (place P7 77500 -22500 front 0)
+      (place P10 77000 -55750 front 180)
+    )
+    (component SW_PUSH_SMALL
+      (place SW1 47250 -38250 front 0)
+      (place SW2 85250 -27500 front 0)
+      (place SW3 85250 -33000 front 0)
+      (place SW4 85250 -38250 front 0)
+      (place SW5 85250 -43750 front 0)
+      (place SW6 85250 -49250 front 0)
+    )
+    (component "R4-LARGE_PADS"
+      (place R7 84750 -41000 front 0)
+      (place R4 52500 -35250 front 90)
+      (place R12 30250 -48250 front 180)
+      (place R11 30250 -45500 front 180)
+      (place R3 52500 -42500 front 90)
+      (place R5 84750 -30250 front 0)
+      (place R6 84750 -35750 front 0)
+      (place R8 84750 -46500 front 0)
+      (place R9 84750 -51750 front 0)
+      (place R10 79250 -48250 front 90)
+      (place R14 30250 -49750 front 0)
+      (place R13 30250 -51250 front 180)
+      (place R2 50250 -37250 front 270)
+      (place R1 50250 -30250 front 270)
+    )
+    (component pin_array_3x2
+      (place P2 78750 -39000 front 270)
+    )
+    (component PIN_ARRAY_3X1
+      (place JP8 79250 -31500 front 270)
+      (place JP7 65500 -45500 front 90)
+      (place JP11 77500 -45500 front 90)
+      (place JP10 67500 -45500 front 90)
+      (place JP9 77500 -31500 front 270)
+      (place JP6 55500 -45500 front 90)
+      (place JP5 62500 -29250 front 0)
+      (place JP4 62500 -27750 front 0)
+    )
+    (component PIN_ARRAY_2X1
+      (place JP3 37250 -24750 front 0)
+      (place JP2 81250 -32000 front 90)
+      (place JP1 52500 -28750 front 270)
+    )
+    (component "LED-5MM"
+      (place D4 26250 -48250 front 180)
+      (place D5 26250 -45500 front 180)
+    )
+    (component "ftdichip-SSOP28DB"
+      (place IC4 32750 -54500 back 90)
+    )
+    (component "DIP-40__600"
+      (place IC2 66000 -39000 front 0)
+    )
+    (component D4
+      (place D3 39250 -29500 front 270)
+      (place D1 32250 -22500 front 270)
+    )
+    (component D3
+      (place D2 45750 -29750 front 90)
+    )
+    (component C2V10
+      (place C5 33250 -27500 front 0)
+    )
+    (component C1V7
+      (place C12 37250 -34750 front 180)
+      (place C13 37250 -37750 front 180)
+    )
+    (component C1V5
+      (place C9 32750 -36250 front 0)
+      (place C4 47850 -31700 front 0)
+    )
+    (component C1
+      (place C15 28000 -57750 front 0)
+      (place C16 29750 -56000 front 90)
+      (place C7 50750 -44500 front 0)
+      (place C6 32750 -31500 front 0)
+      (place C10 37250 -27500 front 180)
+      (place C11 37250 -31500 front 180)
+      (place C14 37250 -40250 front 180)
+      (place C8 32750 -33750 front 0)
+      (place C3 47750 -28750 front 270)
+      (place C1 43500 -28750 front 270)
+      (place C2 43500 -32750 front 270)
+    )
+    (component "SIL-10"
+      (place P8 39000 -57750 front 180)
+    )
+    (component 1pin
+      (place 1PIN2 34250 -20750 front 0)
+      (place 1PIN0 35750 -51250 front 0)
+      (place 1PIN3 81250 -26500 front 0)
+      (place 1PIN4 81000 -48750 front 0)
+      (place 1PIN1 54000 -39000 front 0)
+    )
+    (component pin_array_12x2
+      (place P100 42250 -44500 front 0)
+      (place P110 42250 -46500 front 0)
+      (place P120 42250 -48500 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2011-12-23 BZR 3325)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Vorderseite 350 0 0)
+        )
+        (shape
+          (circle Rückseite 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Vorderseite 350 0 0)
+        )
+        (shape
+          (circle Rückseite 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /VDC0
+        (wire
+          (path Rückseite 134
+            35709 -43541
+            36291 -43541
+            36750 -44000
+          )
+        )
+        (wire
+          (path Rückseite 134
+            82505 -25755
+            82500 -25760
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            30866 -53605
+            30866 -54627
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            31311 -53605
+            30866 -53605
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45050 -34000
+            45050 -34050
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45050 -32250
+            45050 -34000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            49525 -31700
+            48354 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            49550 -31700
+            49525 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            48354 -31700
+            48350 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            29511 -30700
+            28750 -30700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            29750 -55500
+            29871 -55379
+            30850 -55379
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            25750 -48250
+            27250 -49750
+            28250 -49750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            79250 -46250
+            78529 -46971
+            74971 -46971
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            27500 -57750
+            27813 -57437
+            27813 -55500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28250 -49750
+            30866 -52366
+            30866 -53349
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            27813 -55500
+            27313 -55000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            65057 -42445
+            66055 -42445
+            66500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            30850 -55379
+            30850 -54643
+            30866 -54627
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            62500 -32500
+            63000 -32000
+            63000 -25011
+            63750 -24261
+            63750 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            50250 -44500
+            50250 -39250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            49750 -54750
+            49750 -53600
+            50250 -53100
+            50250 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            33250 -31500
+            33250 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            36750 -40250
+            32030 -44970
+            26280 -44970
+            25750 -45500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            31311 -55395
+            31833 -55395
+            31922 -55484
+            32340 -55484
+            33451 -54373
+            34189 -54373
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            36750 -31500
+            36750 -27500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            28750 -30700
+            29511 -30700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            47750 -29250
+            47750 -29750
+            48348 -29750
+            48348 -30350
+            48350 -30350
+            48350 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45050 -34050
+            45050 -39250
+            45750 -39250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            50250 -39250
+            48750 -39250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            29750 -55500
+            27813 -55500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            48350 -31700
+            48354 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            74971 -46971
+            74500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            36750 -31500
+            36750 -32250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            62500 -32500
+            62032 -32032
+            54613 -32032
+            54613 -31700
+            49550 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            25750 -45500
+            25750 -48250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            36750 -40250
+            36750 -37750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            70250 -54750
+            70250 -53989
+            74971 -49268
+            74971 -46971
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            36750 -32250
+            43500 -32250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            65500 -36000
+            65038 -36462
+            65038 -42426
+            65057 -42445
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            49525 -31700
+            49550 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            63750 -21500
+            63750 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -24800
+            26750 -26750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -22800
+            28750 -24800
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            28750 -30700
+            26750 -30700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            82505 -25755
+            82505 -27000
+            81755 -27750
+            80500 -27750
+            80250 -28000
+            80250 -28010
+            78441 -29819
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            31311 -53349
+            30866 -53349
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            36750 -27500
+            34250 -27500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            65057 -42445
+            65057 -43943
+            62500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -24800
+            28750 -24800
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -26750
+            28750 -24800
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            62500 -32500
+            64389 -34389
+            65500 -34389
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -22800
+            28750 -22800
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            65500 -34389
+            69457 -30432
+            73317 -30432
+            74000 -31115
+            74000 -32000
+            74500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            31311 -55395
+            30866 -55395
+            30850 -55379
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            84250 -23500
+            84250 -24261
+            83999 -24261
+            82505 -25755
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            29511 -30700
+            33250 -30700
+            33250 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            30866 -53605
+            30866 -53349
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            37750 -20750
+            37271 -21229
+            37271 -26726
+            36752 -26726
+            36752 -27500
+            36750 -27500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45050 -32250
+            48350 -32250
+            48350 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            36750 -32250
+            36750 -34750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            33250 -33750
+            33250 -36250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            37750 -20750
+            38585 -19915
+            41415 -19915
+            42250 -20750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            36750 -31500
+            33250 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45050 -34000
+            45050 -34050
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45050 -32250
+            43500 -32250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            79250 -40000
+            79739 -39511
+            79739 -32038
+            79701 -32000
+            79050 -32000
+            78441 -31391
+            78441 -29819
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            65500 -34389
+            65500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            31311 -54627
+            30866 -54627
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            45750 -39250
+            48750 -39250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -24800
+            26750 -22800
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -28700
+            26750 -26750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            84250 -21500
+            84250 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            79250 -46250
+            79250 -40000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -26750
+            28750 -26750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -28700
+            28750 -28700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -26750
+            28750 -28700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -30700
+            26750 -28700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -28700
+            28750 -30700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            78441 -29819
+            77181 -29819
+            74500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            49750 -56750
+            49750 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            36750 -37750
+            36750 -34750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            70250 -56750
+            70250 -54750
+          )
+          (type protect)
+        )
+      )
+      (net +3.3V
+        (wire
+          (path Rückseite 134
+            37750 -40250
+            37750 -44000
+          )
+        )
+        (wire
+          (path Rückseite 134
+            37750 -40250
+            37750 -37750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -38500
+            26750 -40550
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -42500
+            26750 -42500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            61500 -29250
+            61970 -29250
+            61970 -29682
+            62318 -30030
+            76560 -30030
+            77030 -30500
+            77500 -30500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            66500 -46500
+            66500 -45765
+            65735 -45000
+            62780 -45000
+            62280 -44500
+            57221 -44500
+            55691 -46030
+            55500 -46030
+            55500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            79250 -30500
+            77500 -30500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            77500 -30500
+            77500 -30970
+            77068 -30970
+            77030 -31008
+            77030 -45992
+            77068 -46030
+            77500 -46030
+            77500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            41250 -20750
+            41250 -22255
+            38220 -22255
+            38220 -36800
+            37750 -36800
+            37750 -37750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -40550
+            26750 -42500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            32250 -48250
+            29511 -45511
+            29511 -42500
+            28750 -42500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -40550
+            28750 -42500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            67500 -46500
+            67970 -46500
+            68440 -46030
+            76560 -46030
+            77030 -46500
+            77500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -38550
+            27561 -38550
+            27511 -38500
+            26750 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            28750 -38550
+            37750 -38550
+            37750 -37750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            61500 -27750
+            61030 -27750
+            60560 -27280
+            44010 -27280
+            44010 -24750
+            41518 -24750
+            41518 -24752
+            41250 -24752
+            41250 -20750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            66500 -46500
+            65500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            61500 -27750
+            61500 -29250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -38550
+            28750 -40550
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            67500 -46500
+            66500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -40550
+            26750 -40550
+          )
+          (type protect)
+        )
+      )
+      (net +5V
+        (wire
+          (path Rückseite 134
+            33744 -47040
+            36284 -44500
+            38250 -44500
+            38750 -44000
+          )
+        )
+        (wire
+          (path Rückseite 134
+            33744 -47040
+            33744 -46994
+            32250 -45500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            33744 -53605
+            33744 -47040
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            36750 -24750
+            36750 -25525
+            36290 -25525
+            36290 -25681
+            36289 -25681
+            36289 -32850
+            32250 -32850
+            32250 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            32250 -36250
+            30150 -36250
+            30150 -36600
+            28750 -36600
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            43500 -33250
+            42950 -33250
+            42950 -28250
+            43500 -28250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            62750 -28500
+            62500 -28250
+            52500 -28250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -36600
+            28750 -34600
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45750 -28250
+            43500 -28250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            65500 -44206
+            55794 -44206
+            55500 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            47750 -28250
+            50250 -28250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            81250 -32500
+            79250 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            77500 -32500
+            79250 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -32650
+            26750 -32650
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            63500 -29250
+            66500 -32250
+            66500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -34600
+            28750 -34600
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            43500 -28250
+            43500 -25220
+            37258 -25220
+            37220 -25182
+            37220 -24750
+            36750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            67500 -44500
+            65500 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            33744 -53605
+            32555 -54794
+            31845 -54794
+            31756 -54883
+            31311 -54883
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            66500 -36000
+            65500 -37000
+            65500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -36600
+            28750 -36600
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            65500 -42000
+            65500 -44206
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            77500 -44500
+            67500 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            32250 -45500
+            32250 -36250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -32650
+            26750 -34600
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            62750 -28500
+            63500 -27750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            65500 -44206
+            65500 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            77500 -44500
+            78750 -43250
+            78750 -38500
+            79250 -38000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            45750 -28250
+            47750 -28250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            52500 -28250
+            50250 -28250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            32250 -33750
+            32250 -36250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            28750 -34600
+            28750 -32650
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            52500 -44500
+            55500 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            36750 -24750
+            36750 -20750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            51250 -44500
+            52500 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            26750 -34600
+            26750 -36600
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            79250 -32500
+            79250 -38000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            34189 -53605
+            33744 -53605
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            63500 -29250
+            62750 -28500
+          )
+          (type protect)
+        )
+      )
+      (net /PA0
+        (wire
+          (path Rückseite 100
+            57174 -32500
+            58500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            57174 -32500
+            57174 -35326
+            56500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            48000 -23500
+            48000 -24244
+            49345 -24244
+            57174 -32073
+            57174 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            48000 -21500
+            48000 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PA1
+        (wire
+          (path Rückseite 100
+            58500 -31500
+            51244 -24244
+            49950 -24244
+            49950 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            57500 -36000
+            58976 -34524
+            58976 -31976
+            58500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            49950 -21500
+            49950 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PA2
+        (wire
+          (path Rückseite 100
+            59500 -32500
+            59500 -32211
+            58963 -31674
+            58963 -31257
+            51950 -24244
+            51950 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            58500 -36000
+            59500 -35000
+            59500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            52000 -21500
+            52000 -22244
+            51950 -22294
+            51950 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PA3
+        (wire
+          (path Rückseite 100
+            53900 -23500
+            53900 -24244
+            59500 -29844
+            59500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            59500 -31500
+            60000 -32000
+            60000 -35500
+            59500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            53900 -21500
+            53900 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PA4
+        (wire
+          (path Rückseite 100
+            60500 -36000
+            60500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            55900 -23500
+            55900 -21500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            60500 -32500
+            60500 -32211
+            60000 -31711
+            60000 -28344
+            55900 -24244
+            55900 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PA5
+        (wire
+          (path Rückseite 100
+            57850 -23500
+            57850 -24244
+            60500 -26894
+            60500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61500 -36000
+            61000 -35500
+            61000 -32319
+            60500 -31819
+            60500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            57850 -23500
+            57850 -21500
+          )
+          (type protect)
+        )
+      )
+      (net /PA6
+        (wire
+          (path Rückseite 100
+            61500 -32500
+            60975 -31975
+            60975 -25419
+            59800 -24244
+            59800 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            59800 -21500
+            59800 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            62500 -36000
+            61500 -35000
+            61500 -32500
+          )
+          (type protect)
+        )
+      )
+      (net /PA7
+        (wire
+          (path Rückseite 100
+            86246 -48250
+            86250 -48250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            83750 -48250
+            86246 -48250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -37250
+            84275 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            83750 -37250
+            84254 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            85800 -26500
+            86750 -26500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            83750 -26500
+            85800 -26500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -36746
+            84254 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -36725
+            84254 -36746
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -32000
+            84275 -31979
+            84275 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -36725
+            84254 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -32000
+            84275 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            83750 -32000
+            84254 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -36746
+            84254 -36725
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84275 -37250
+            86750 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            85800 -26500
+            85800 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            85800 -32000
+            86750 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            82929 -37250
+            64750 -37250
+            63500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            63500 -36000
+            62000 -34500
+            62000 -32000
+            61500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61500 -31500
+            61954 -31046
+            61954 -24398
+            61800 -24244
+            61800 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            82929 -37250
+            82929 -39733
+            83750 -40554
+            83750 -42750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86250 -48250
+            86750 -48250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            83750 -37250
+            82929 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61800 -21500
+            61800 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            83750 -42750
+            86750 -42750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84275 -32000
+            85800 -32000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86750 -42750
+            86246 -43254
+            86246 -48250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86246 -48250
+            86250 -48250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84254 -37250
+            84275 -37250
+          )
+          (type protect)
+        )
+      )
+      (net /PB0
+        (wire
+          (path Rückseite 100
+            56500 -42000
+            56500 -44500
+            58500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            58500 -46500
+            56876 -48124
+            56876 -57059
+            57728 -57911
+            65083 -57911
+            65500 -57494
+            65500 -56750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            65500 -56750
+            65500 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PB1
+        (wire
+          (path Vorderseite 100
+            58500 -45500
+            59167 -44833
+            61738 -44833
+            62049 -45144
+            62049 -45949
+            62077 -45977
+            62734 -45977
+            63550 -46793
+            63550 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            57500 -42000
+            58500 -43000
+            58500 -45500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            63550 -56750
+            63550 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PB2
+        (wire
+          (path Rückseite 100
+            61500 -56378
+            61500 -56006
+            61550 -55956
+            61550 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61500 -56378
+            60384 -57494
+            59253 -57494
+            59049 -57290
+            59049 -46951
+            59500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            58500 -42000
+            59000 -42500
+            59000 -46000
+            59500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61500 -56750
+            61500 -56378
+          )
+          (type protect)
+        )
+      )
+      (net /PB3
+        (wire
+          (path Rückseite 100
+            59600 -54750
+            59600 -56750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            59500 -45500
+            59500 -45789
+            59951 -46240
+            59951 -53655
+            59600 -54006
+            59600 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            59500 -42000
+            59500 -45500
+          )
+          (type protect)
+        )
+      )
+      (net /PB4
+        (wire
+          (path Rückseite 100
+            60500 -46500
+            62230 -48230
+            62230 -56972
+            61495 -57707
+            57813 -57707
+            57600 -57494
+            57600 -56750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            60500 -42000
+            60049 -42451
+            60049 -46049
+            60500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            57600 -54750
+            57600 -56750
+          )
+          (type protect)
+        )
+      )
+      (net /PB5
+        (wire
+          (path Vorderseite 100
+            60500 -45500
+            61013 -46013
+            61713 -46013
+            62028 -46328
+            62028 -47628
+            55650 -54006
+            55650 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            61500 -42000
+            61929 -42429
+            63723 -42429
+            64000 -42152
+            64000 -41789
+            66289 -39500
+            78750 -39500
+            79250 -39000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61500 -42000
+            60500 -43000
+            60500 -45500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            55650 -56750
+            55650 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PB6
+        (wire
+          (path Vorderseite 100
+            78250 -38000
+            66500 -38000
+            62500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            61500 -46500
+            61048 -46048
+            61048 -43452
+            62500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            61500 -46500
+            53994 -54006
+            53700 -54006
+            53700 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            53700 -56750
+            53700 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PB7
+        (wire
+          (path Vorderseite 100
+            61500 -45500
+            61049 -45049
+            60056 -45049
+            60028 -45077
+            60028 -46869
+            52891 -54006
+            51700 -54006
+            51700 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            63500 -42000
+            66500 -39000
+            78250 -39000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            51700 -56750
+            51700 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            63500 -42000
+            63500 -43500
+            61500 -45500
+          )
+          (type protect)
+        )
+      )
+      (net /PB8
+        (via "Via[0-1]_35:25_mil" 33339 -52604
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            65000 -42200
+            64500 -42700
+            35300 -42700
+            34225 -43775
+            34225 -51250
+            33350 -51250
+            33350 -52604
+            33339 -52604
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            65000 -42200
+            65000 -41894
+            65522 -41372
+            67872 -41372
+            68500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            65000 -42207
+            65000 -42200
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            33339 -52604
+            31826 -54117
+            31311 -54117
+          )
+          (type protect)
+        )
+      )
+      (net /PC0
+        (wire
+          (path Rückseite 100
+            68500 -21500
+            68500 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            70500 -32500
+            69056 -33944
+            69056 -36401
+            69084 -36429
+            74071 -36429
+            74500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            68500 -23500
+            68500 -30500
+            70500 -32500
+          )
+          (type protect)
+        )
+      )
+      (net /PC1
+        (wire
+          (path Rückseite 100
+            70450 -23500
+            70450 -24244
+            70500 -24294
+            70500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            70500 -31500
+            71007 -30993
+            72649 -30993
+            72985 -31329
+            72985 -35485
+            73500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            70450 -21500
+            70450 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PC2
+        (wire
+          (path Vorderseite 100
+            72450 -23500
+            72450 -22756
+            72500 -22706
+            72500 -21500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            72500 -36000
+            72065 -36435
+            71084 -36435
+            71056 -36407
+            71056 -32944
+            71500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            71500 -32500
+            71000 -32000
+            71000 -25694
+            72450 -24244
+            72450 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PC3
+        (wire
+          (path Rückseite 100
+            71500 -31500
+            71500 -27144
+            74400 -24244
+            74400 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            74400 -21500
+            74400 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            71500 -31500
+            71500 -31789
+            72000 -32289
+            72000 -35500
+            71500 -36000
+          )
+          (type protect)
+        )
+      )
+      (net /PC4
+        (wire
+          (path Rückseite 100
+            72500 -32500
+            72000 -32000
+            72000 -28644
+            76400 -24244
+            76400 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            76400 -21500
+            76400 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            70500 -36000
+            72500 -34000
+            72500 -32500
+          )
+          (type protect)
+        )
+      )
+      (net /PC5
+        (wire
+          (path Rückseite 100
+            78350 -23500
+            78350 -24244
+            72500 -30094
+            72500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            72500 -31500
+            72000 -32000
+            72000 -33500
+            69500 -36000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            78350 -21500
+            78350 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PC6
+        (wire
+          (path Rückseite 100
+            68500 -36000
+            69309 -36809
+            72553 -36809
+            73000 -36362
+            73000 -33000
+            73500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            80300 -23500
+            80300 -24244
+            80113 -24244
+            73000 -31357
+            73000 -32000
+            73500 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            80300 -21500
+            80300 -23500
+          )
+          (type protect)
+        )
+      )
+      (net /PC7
+        (wire
+          (path Rückseite 100
+            82300 -23500
+            82300 -24244
+            80756 -24244
+            73500 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            82300 -21500
+            82300 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            67500 -36000
+            67500 -33807
+            70645 -30662
+            72662 -30662
+            73500 -31500
+          )
+          (type protect)
+        )
+      )
+      (net /PD0
+        (wire
+          (path Rückseite 100
+            34189 -52837
+            41079 -52837
+            46428 -58186
+            68043 -58186
+            68929 -57300
+            68929 -48071
+            70500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            69500 -42000
+            69500 -45500
+            70500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            69500 -42000
+            70948 -43448
+            77555 -43448
+            86000 -51893
+            86000 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86000 -56750
+            86000 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PD1
+        (wire
+          (path Rückseite 100
+            70500 -42000
+            70500 -45500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            70500 -42000
+            71797 -40703
+            75989 -40703
+            76762 -41476
+            76762 -46609
+            84050 -53897
+            84050 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            34189 -53861
+            37322 -53861
+            41071 -57610
+            41071 -58158
+            41302 -58389
+            83155 -58389
+            84050 -57494
+            84050 -56750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            84050 -54750
+            84050 -56750
+          )
+          (type protect)
+        )
+      )
+      (net /PD2
+        (wire
+          (path Rückseite 100
+            82050 -54750
+            82050 -54006
+            76558 -48514
+            76558 -41560
+            75904 -40906
+            72594 -40906
+            71500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            82000 -56750
+            82000 -56006
+            82050 -55956
+            82050 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            71500 -46500
+            71000 -46000
+            71000 -42500
+            71500 -42000
+          )
+          (type protect)
+        )
+      )
+      (net /PD3
+        (wire
+          (path Rückseite 100
+            80100 -56750
+            80100 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            72500 -42000
+            71500 -43000
+            71500 -45500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            80100 -54750
+            80100 -54006
+            76354 -50260
+            76354 -41644
+            75819 -41109
+            73391 -41109
+            72500 -42000
+          )
+          (type protect)
+        )
+      )
+      (net /PD4
+        (wire
+          (path Rückseite 100
+            73500 -42000
+            74188 -41312
+            75732 -41312
+            76150 -41730
+            76150 -52056
+            78100 -54006
+            78100 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            72500 -46500
+            72048 -46048
+            72048 -43452
+            73500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            78100 -56750
+            78100 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PD5
+        (wire
+          (path Rückseite 100
+            72500 -45500
+            74500 -43500
+            74500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            74500 -42000
+            74985 -41515
+            75639 -41515
+            75947 -41823
+            75947 -53803
+            76150 -54006
+            76150 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            76150 -56750
+            76150 -54750
+          )
+          (type protect)
+        )
+      )
+      (net /PD6
+        (wire
+          (path Rückseite 100
+            74200 -56750
+            74200 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            74200 -54750
+            74200 -47200
+            73500 -46500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            75500 -42000
+            75500 -43222
+            74000 -44722
+            74000 -46000
+            73500 -46500
+          )
+          (type protect)
+        )
+      )
+      (net /PD7
+        (wire
+          (path Rückseite 100
+            72200 -54750
+            72200 -47003
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            72200 -56750
+            72200 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            75500 -36000
+            70049 -41451
+            70049 -45701
+            70299 -45951
+            70662 -45951
+            70951 -46240
+            70951 -46606
+            71348 -47003
+            72200 -47003
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            72200 -47003
+            72923 -47003
+            72951 -46975
+            72951 -46049
+            73500 -45500
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT0
+        (wire
+          (path Rückseite 100
+            41500 -57750
+            37099 -53349
+            34189 -53349
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT1
+        (wire
+          (path Rückseite 100
+            37500 -57750
+            35145 -55395
+            34189 -55395
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT2
+        (wire
+          (path Rückseite 100
+            42500 -57750
+            37843 -53093
+            34189 -53093
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT3
+        (wire
+          (path Rückseite 100
+            39500 -57750
+            36633 -54883
+            34189 -54883
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT4
+        (wire
+          (path Rückseite 100
+            34189 -55139
+            35889 -55139
+            38500 -57750
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT5
+        (wire
+          (path Rückseite 100
+            34189 -54117
+            36867 -54117
+            40500 -57750
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT6
+        (via "Via[0-1]_35:25_mil" 32016 -54447
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            32016 -54447
+            40197 -54447
+            43500 -57750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            32016 -54447
+            31942 -54373
+            31311 -54373
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT7
+        (wire
+          (path Rückseite 100
+            34189 -55907
+            34863 -55907
+            35500 -56544
+            35500 -57750
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT8
+        (wire
+          (path Rückseite 100
+            34500 -57750
+            34617 -57633
+            34617 -56163
+            34189 -56163
+          )
+          (type protect)
+        )
+      )
+      (net /cobol_p2/FT9
+        (wire
+          (path Rückseite 100
+            34189 -55651
+            34980 -55651
+            36500 -57171
+            36500 -57750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Rückseite 100
+            52500 -33250
+            53250 -33250
+            53250 -36000
+            56821 -39571
+            62071 -39571
+            64500 -42000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            64500 -42000
+            66500 -40000
+            78250 -40000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000014"
+        (wire
+          (path Rückseite 134
+            39250 -31500
+            40250 -31500
+            40250 -22500
+            43250 -22500
+            43250 -20750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            37750 -34750
+            37750 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            37750 -31500
+            39250 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000015"
+        (wire
+          (path Vorderseite 100
+            26750 -45500
+            28250 -45500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Vorderseite 100
+            26750 -48250
+            28250 -48250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Rückseite 100
+            81250 -31500
+            81250 -30250
+            82750 -30250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000019"
+        (wire
+          (path Rückseite 100
+            86750 -30250
+            86750 -28500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            82750 -35750
+            82750 -34250
+            86750 -30250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            83750 -28500
+            86750 -28500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000020"
+        (wire
+          (path Rückseite 100
+            82750 -41000
+            82750 -37325
+            83750 -36325
+            83750 -34000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            83750 -34000
+            86750 -34000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86750 -35750
+            86750 -34000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000021"
+        (wire
+          (path Vorderseite 100
+            83750 -39250
+            86750 -39250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            82750 -46500
+            82750 -45000
+            86750 -41000
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86750 -41000
+            86750 -39250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000025"
+        (wire
+          (path Rückseite 134
+            32250 -27500
+            32250 -24500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            32250 -24500
+            35000 -24500
+            35000 -21990
+            38750 -21990
+            38750 -20750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            32250 -31500
+            32250 -27500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000026"
+        (wire
+          (path Rückseite 134
+            37750 -27500
+            37750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            37750 -27500
+            39250 -27500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000027"
+        (wire
+          (path Rückseite 100
+            82750 -51750
+            82750 -48325
+            83750 -47325
+            83750 -44750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86750 -46500
+            86750 -44750
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            83750 -44750
+            86750 -44750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000028"
+        (wire
+          (path Rückseite 100
+            83750 -50250
+            86750 -50250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            79250 -50250
+            83750 -50250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            86750 -51750
+            86750 -50250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000029"
+        (wire
+          (path Rückseite 100
+            50220 -30740
+            50052 -30740
+            50052 -30738
+            49488 -30738
+            43500 -30740
+            43500 -29250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            50252 -30740
+            50220 -30740
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            50250 -32250
+            50252 -32774
+            50252 -34740
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            52500 -29250
+            50250 -29250
+            50250 -29450
+            50252 -29450
+            50252 -30740
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            50252 -30740
+            50220 -30740
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            50252 -30740
+            50252 -32250
+            50250 -32250
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            64500 -36000
+            63246 -34746
+            50252 -34740
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            50252 -34740
+            50250 -35250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            50220 -30740
+            50252 -30740
+          )
+          (type protect)
+        )
+      )
+      (net "N-000030"
+        (wire
+          (path Rückseite 100
+            52500 -37250
+            48750 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            52500 -40500
+            52500 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            45750 -31700
+            45750 -37250
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            45750 -31650
+            45750 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            45750 -31700
+            45750 -31650
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            47350 -31700
+            45750 -31700
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            45750 -31250
+            45750 -31650
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            45750 -37250
+            48750 -37250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000033"
+        (wire
+          (path Rückseite 134
+            29750 -56500
+            30599 -55651
+            31311 -55651
+          )
+          (type protect)
+        )
+      )
+      (net "N-000034"
+        (wire
+          (path Rückseite 100
+            28500 -57750
+            28100 -57350
+            28100 -55000
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            28100 -55000
+            29133 -53967
+            29133 -52133
+            28250 -51250
+          )
+          (type protect)
+        )
+      )
+      (net "N-000060"
+        (wire
+          (path Rückseite 134
+            62500 -29250
+            62500 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000077"
+        (wire
+          (path Rückseite 134
+            31311 -56163
+            30170 -57304
+            29543 -57304
+            28629 -56390
+            28629 -54825
+            28304 -54500
+            27813 -54500
+            27313 -54000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000078"
+        (via "Via[0-1]_35:25_mil" 32065 -55139
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 100
+            32250 -51250
+            31688 -51812
+            31688 -54762
+            32065 -55139
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            31311 -55139
+            32065 -55139
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            32250 -51250
+            32250 -49750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000079"
+        (wire
+          (path Vorderseite 100
+            55500 -45500
+            47800 -53200
+            47800 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 100
+            47800 -56750
+            47800 -54750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000080"
+        (wire
+          (path Vorderseite 134
+            65500 -45500
+            62500 -45500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000081"
+        (wire
+          (path Rückseite 134
+            86200 -21500
+            86200 -23500
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            79250 -31500
+            82935 -27815
+            82935 -26682
+            85356 -24261
+            86200 -24261
+            86200 -23500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000082"
+        (wire
+          (path Rückseite 134
+            65700 -23500
+            65700 -21500
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            62500 -27750
+            65700 -24550
+            65700 -23500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000083"
+        (wire
+          (path Rückseite 134
+            68300 -56750
+            68300 -54750
+          )
+          (type protect)
+        )
+        (wire
+          (path Rückseite 134
+            67500 -45500
+            68300 -46300
+            68300 -54750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000084"
+        (wire
+          (path Rückseite 134
+            31311 -55907
+            30866 -55907
+            30866 -56036
+            29951 -56951
+            29527 -56951
+            28866 -56290
+            28866 -54430
+            28436 -54000
+            28100 -54000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000085"
+        (wire
+          (path Vorderseite 134
+            77500 -31500
+            74500 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000086"
+        (wire
+          (path Vorderseite 134
+            77500 -45500
+            74500 -45500
+          )
+          (type protect)
+        )
+      )
+      (net VCC
+        (wire
+          (path Vorderseite 134
+            26750 -20800
+            28750 -20800
+          )
+          (type protect)
+        )
+        (wire
+          (path Vorderseite 134
+            32250 -20500
+            29811 -20500
+            29811 -20800
+            28750 -20800
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
